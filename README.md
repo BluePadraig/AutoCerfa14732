@@ -17,7 +17,7 @@ Remplissage automatique de reçus fiscaux en pdf à partir d'un fichier xlsx ou 
   * Ce texte ne doit pas contenir de caractère créant un conflit dans un nom de fichier
     * Par exemple, pas de \ ou / ou ?
 * Indiquer le chemin du fichier les informations des donateurs
-  * Voir le [format des informations donateurs](# Format des informations donateurs)
+* Voir le [format des informations donateurs](#format-des-informations-donateurs)
 * Le programme va générer un reçu fiscal par donateur, au format pdf
   * Le nom des fichiers générés est au format suivant
     * Numéro d'ordre du reçu-Description-Prénom-Nom-Date de génération du reçu.pdf
@@ -62,9 +62,9 @@ Ce modèle doit-être un fichier pdf, avec les champs éditables suivants :
 Pour éviter les problèmes d'encodage, les noms des champs n'ont pas d'accent.
 
 Pour créer ce modèle de reçu fiscal, vous pouvez utiliser le logiciel Writer de la suite LibreOffice.
-Vous pouvez vous inspirer du fichier fourni en exemple : [Exemple de modèle de reçu fiscal.odt](/Exemple de modèle de reçu fiscal.odt)
+Vous pouvez vous inspirer du fichier fourni en exemple : [Exemple de modèle de reçu fiscal.odt](</Exemple%20de%20modèle%20de%20reçu%20fiscal.odt>)
 
-## Format des informations donateurs
+# Format des informations donateurs
 
 Les informations sur les donateurs doivent être renseignées dans un fichier de type Microsoft Excel (.xlsx) ou LibreOffice Calc (.ods).
 
