@@ -3,7 +3,10 @@ Remplissage automatique de reçus fiscaux en pdf à partir d'un fichier xlsx ou 
 
 ## Mode d'emploi
 
-* Télécharger la dernière version du programme recu_fiscal_auto.exe sur [GitHub](https://github.com/BluePadraig/RecuFiscalAuto/)
+* Télécharger le programme recu_fiscal_auto.exe sur [GitHub](https://github.com/BluePadraig/RecuFiscalAuto/releases/)
+  * Dans la rubrique Releases Sélectionner la version la plus récente
+  * Sélectionner Assets
+  * Télécharger le fichier recu_fiscal_auto.exe
 * Exécuter le programme recu_fiscal_auto.exe
   * Le programme prend quelques secondes avant d'afficher la première boite de dialogue 
 * Indiquer le chemin du modèle de reçu fiscal, au format pdf
@@ -14,7 +17,7 @@ Remplissage automatique de reçus fiscaux en pdf à partir d'un fichier xlsx ou 
   * Ce texte ne doit pas contenir de caractère créant un conflit dans un nom de fichier
     * Par exemple, pas de \ ou / ou ?
 * Indiquer le chemin du fichier les informations des donateurs
-  * Voir le [format des informations donateurs](#Format des informations donateurs)
+  * Voir le [format des informations donateurs](# Format des informations donateurs)
 * Le programme va générer un reçu fiscal par donateur, au format pdf
   * Le nom des fichiers générés est au format suivant
     * Numéro d'ordre du reçu-Description-Prénom-Nom-Date de génération du reçu.pdf
@@ -24,7 +27,7 @@ Remplissage automatique de reçus fiscaux en pdf à partir d'un fichier xlsx ou 
 ## Code source
 
 Le programme est écrit en Python  
-Le code source est disponible librement sur [GitHub](https://github.com/BluePadraig/RecuFiscalAuto/)  
+Le code source est disponible librement sur [GitHub](https://github.com/BluePadraig/RecuFiscalAuto)  
 Il est soumis à la licence GNU GPL
 Ce programme est utilisable gratuitement et librement  
 Vous êtes libre de modifier ce programme, tant qu'il conserve sa licence libre
@@ -59,7 +62,7 @@ Ce modèle doit-être un fichier pdf, avec les champs éditables suivants :
 Pour éviter les problèmes d'encodage, les noms des champs n'ont pas d'accent.
 
 Pour créer ce modèle de reçu fiscal, vous pouvez utiliser le logiciel Writer de la suite LibreOffice.
-Vous pouvez vous inspirer du fichier fourni en exemple : [Exemple de modèle de reçu fiscal.odt](https://github.com/BluePadraig/RecuFiscalAuto/tree/main/Exemple de modèle de reçu fiscal.odt/)
+Vous pouvez vous inspirer du fichier fourni en exemple : [Exemple de modèle de reçu fiscal.odt](/Exemple de modèle de reçu fiscal.odt)
 
 ## Format des informations donateurs
 
