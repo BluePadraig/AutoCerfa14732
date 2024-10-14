@@ -4,7 +4,7 @@ Remplissage automatique de reçus fiscaux en pdf à partir d'un fichier xlsx ou 
 ## Mode d'emploi
 
 * Télécharger le programme recu_fiscal_auto.exe sur [GitHub](https://github.com/BluePadraig/RecuFiscalAuto/releases/)
-  * Dans la rubrique Releases Sélectionner la version la plus récente
+  * Dans la rubrique [Releases](https://github.com/BluePadraig/RecuFiscalAuto/releases) Sélectionner la version la plus récente
   * Sélectionner Assets
   * Télécharger le fichier recu_fiscal_auto.exe
 * Exécuter le programme recu_fiscal_auto.exe
